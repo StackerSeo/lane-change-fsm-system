@@ -1,6 +1,6 @@
-# Sensor Fusion Autonomous Lane Change System
+# ROS2-based Autonomous Lane Change System
 
-Sensor Fusion autonomous lane change system implemented on a small-scale autonomous vehicle platform using ROS2.
+ROS2-based autonomous lane change system implemented on a small-scale autonomous vehicle platform.
 The system performs lane detection, vehicle detection, and decision-making for overtaking using camera and LiDAR sensors.
 
 ## Demo
