@@ -1,6 +1,6 @@
-# ROS2-based Autonomous Lane Change System
+# FSM-based Autonomous Lane Change System
 
-ROS2-based autonomous lane change system implemented on a small-scale autonomous vehicle platform.
+FSM-based autonomous lane change system implemented on a small-scale autonomous vehicle platform using ROS2.
 The system performs lane detection, vehicle detection, and decision-making for overtaking using camera and LiDAR sensors.
 
 ## Demo
