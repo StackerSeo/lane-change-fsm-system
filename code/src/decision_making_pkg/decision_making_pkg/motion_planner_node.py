@@ -221,7 +221,7 @@ class MotionPlanningNode(Node):
         elif self.current_state == State.RETURNING_LANE:
             max_count = self.set_count(self.speed)
             # 차선 변경 완료 시, 일반 주행 state로 전이
-            if self.count > max_count:
+            if self.count > max_count and 0 <= abs(self.slope) <= 15:
                 self.count = 0
                 self.current_lane = self.target_lane
                 self.num_lane_changes = 0
